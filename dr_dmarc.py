@@ -1,7 +1,7 @@
 import subprocess
 
 #Open file with domain addresses.  Each domain on its own line.
-search_domain_txt_file = open("c:/Users/Dan/Documents/Code/python/dr_dmarc/domain_input.txt", "r")
+search_domain_txt_file = open("domain_input.txt", "r")
 #Read the file
 domain_array_from_file = search_domain_txt_file.read()
 #Create an array consisting of each domain
